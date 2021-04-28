@@ -262,8 +262,8 @@ public class Fraction extends Number implements Cloneable {
      */
     @Override
     public Object clone() {
-        // TODO (OULK95)
-        return null;
+        Fraction masol = new Fraction(this.numerator,this.denominator);
+        return masol;
     }
 
     /**
