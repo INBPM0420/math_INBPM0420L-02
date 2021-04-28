@@ -190,8 +190,7 @@ public class Fraction extends Number implements Cloneable {
      * @return the absolute value of this fraction
      */
     public Fraction abs() {
-        // TODO (X32S6O)
-        return null;
+        return new Fraction(numerator < 0 ? -numerator : numerator, denominator);
     }
 
     /**
