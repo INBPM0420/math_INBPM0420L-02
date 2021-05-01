@@ -92,7 +92,7 @@ public class Fraction extends Number implements Cloneable {
      */
     public Fraction subtract(int n) {
         // TODO (BZQ84M)
-        return null;
+        return new Fraction(numerator - n * denominator, denominator);
     }
 
     /**
