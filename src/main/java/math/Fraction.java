@@ -171,7 +171,7 @@ public class Fraction extends Number implements Cloneable {
      */
     public Fraction multiply(Fraction fraction) {
         // TODO (DY6F48)
-        return null;
+        return new Fraction(fraction.numerator* fraction.numerator, fraction.denominator* fraction.denominator);
     }
 
     /**
