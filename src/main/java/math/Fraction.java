@@ -200,8 +200,8 @@ public class Fraction extends Number implements Cloneable {
      * @return the value of this fraction as an {@code int}
      */
     public int intValue() {
-        // TODO (VMFKWB)
-        return 0;
+        int integerValue = Integer.valueOf(this.numerator/this.denominator);
+        return integerValue;
     }
 
     /**
