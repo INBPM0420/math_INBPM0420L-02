@@ -200,7 +200,6 @@ public class Fraction extends Number implements Cloneable {
      * @return the value of this fraction as an {@code int}
      */
     public int intValue() {
-
         return Integer.valueOf(this.numerator/this.denominator);
     }
 
@@ -230,7 +229,6 @@ public class Fraction extends Number implements Cloneable {
      * @return the value of this fraction as a {@code long}
      */
     public long longValue() {
-
         return Long.valueOf(this.numerator/this.denominator);
     }
 
