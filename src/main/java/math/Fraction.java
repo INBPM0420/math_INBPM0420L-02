@@ -230,8 +230,8 @@ public class Fraction extends Number implements Cloneable {
      * @return the value of this fraction as a {@code long}
      */
     public long longValue() {
-        // TODO (VMFKWB)
-        return 0;
+
+        return Long.valueOf(this.numerator/this.denominator);
     }
 
     /**
