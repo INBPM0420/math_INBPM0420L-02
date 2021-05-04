@@ -81,7 +81,7 @@ public class Fraction extends Number implements Cloneable {
      */
     public Fraction add(int n) {
         // TODO (HA4GLM)
-        return null;
+        return new Fraction(numerator + n * denominator, denominator);
     }
 
     /**
