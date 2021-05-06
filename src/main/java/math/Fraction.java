@@ -261,8 +261,13 @@ public class Fraction extends Number implements Cloneable {
      */
     @Override
     public Object clone() {
-        // TODO (OULK95)
-        return null;
+        Fraction copy;
+        try {
+            copy = (Fraction) super.clone();
+        } catch (CloneNotSupportedException e) {
+            throw new AssertionError();
+        }
+        return copy;
     }
 
     /**
